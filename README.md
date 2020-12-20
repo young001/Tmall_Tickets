@@ -18,5 +18,6 @@ document.getElementById("J_Cart").setAttribute("start", "go")
 设置提前抢购时间（毫秒单位）
 document.getElementById("J_Cart").setAttribute("jumpstart", "1000")
 
-
+需要修改如下参数进行最优提前时间的判定，看运气
+var jumpstart = document.getElementById("J_Cart").getAttribute("jumpstart") || 500;
 
