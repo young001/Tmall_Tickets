@@ -6,6 +6,7 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
+  "permissions": ["tabs", "declarativeContent", "storage"],
   "content_scripts": [
     {
       "matches": ["https://chaoshi.detail.tmall.com/*","https://cart.tmall.com/*","https://buy.tmall.com/*"],

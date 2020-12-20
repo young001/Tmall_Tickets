@@ -12,4 +12,11 @@ https://cart.tmall.com/cart.htm
 # Chrome浏览器加载插件运行
 插件自动运行后，时间到了后，看看是否订单里面有付款项，有的话就说抢票成功，没有则是没中。
 
+# 启动
+可以通过如下命令触发开始抢购
+document.getElementById("J_Cart").setAttribute("start", "go")
+设置提前抢购时间（毫秒单位）
+document.getElementById("J_Cart").setAttribute("jumpstart", "1000")
+
+
 
